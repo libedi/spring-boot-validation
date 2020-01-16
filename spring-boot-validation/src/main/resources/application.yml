@@ -6,6 +6,8 @@ spring:
       force: true
   messages:
     basename: messages/message,message/message_ko_KR,message/message_en_US,messages/ValidationMessages,messages/ValidationMessages_ko_KR
+  mvc:
+    locale: ko_KR
 
 server:
   port: 8888
